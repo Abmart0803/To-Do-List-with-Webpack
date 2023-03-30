@@ -1,0 +1,31 @@
+{
+  "name": "to-do-list-with-webpack",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abmart0803/To-Do-List-with-Webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abmart0803/To-Do-List-with-Webpack/issues"
+  },
+  "homepage": "https://github.com/Abmart0803/To-Do-List-with-Webpack#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
