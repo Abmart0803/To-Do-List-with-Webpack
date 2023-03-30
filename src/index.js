@@ -140,7 +140,13 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   const initialList = localStorage.getItem('taskList')
     ? JSON.parse(localStorage.getItem('taskList'))
-    : [];
+    : [
+      {
+        description: 'task.name',
+        completed: false,
+        index: 0,
+      },
+    ];
   initialList.forEach((task) => handleAddTask(task.name, task.completed, false));
 });
 
