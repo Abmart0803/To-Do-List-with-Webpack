@@ -1,5 +1,5 @@
-import _ from 'lodash';
 import './style.css';
+// import _ from 'lodash';
 import clearCompleted from './module/clearAll.js';
 
 let addButton = document.getElementById('add');
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   input.addEventListener('input', (e) => {
     newTodo = e.target.value;
-    console.log(newTodo);
+    // console.log(newTodo);
   });
 
   addButton.addEventListener('click', () => handleAddTask(newTodo));

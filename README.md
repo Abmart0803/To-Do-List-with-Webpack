@@ -26,12 +26,11 @@
 
 
 ## Built With
-
 - HTML
 - CSS
 - JavaScript(ES6)
 - WebPack
-- jest library
+
 
 ## Live Demo
 
@@ -39,27 +38,23 @@
 
 ## Getting Started
 
-1. Open [main branch](https://github.com/Yemisirach/Todo-List.git)
+1. Open [main branch](https://github.com/Abmart0803/To-Do-List-with-Webpack.git)
 2. Open VSCode or terminal and navigate to the folder where you would like to clone the project.
 3. Type "pwd" to see your working directory.
-4. [clone repository](git@github.com:Yemisirach/Todo-List.git)(git clone "branch-link")
+4. [clone repository](github.com/Abmart0803/To-Do-List-with-Webpack.git)(git clone "branch-link")
 5. run "npm start" to start the website on local server
 6. Enjoy 😎
 
 
-## 👥 Authors <a name="authors">Yemisirach and Kingno</a>
+## 👥 Author <a name="authors">Abiola Ayodele Martins</a>
 
 > Mention all of the collaborators of this project.
 
 👤 **Author1**
-- GitHub: [@githubhandle](https://github.com/Yemisirach)
-- Twitter: [@twitterhandle](https://twitter.com/TamiratYemisrach)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yemisirach)
+- GitHub: [@githubhandle](https://github.com/Abmart0803)
+- Twitter: [@twitterhandle](https://twitter.com/MartinsAbmart)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abmartcodingworld/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/kingno3l)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kingno3l
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
