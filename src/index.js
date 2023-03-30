@@ -6,23 +6,7 @@ let input = document.getElementById('todo');
 let listContainer = document.getElementById('task-list');
 let clearAll = document.getElementById('clearAll');
 let newTodo = '';
-let toDoList = [
-  {
-    description: 'Wash Car',
-    completed: false,
-    index: 0,
-  },
-  {
-    description: 'Service Car',
-    completed: false,
-    index: 1,
-  },
-  {
-    description: 'Finish To do List',
-    completed: true,
-    index: 2,
-  },
-];
+let toDoList = [];
 
 const handleCheckbox = (e) => {
   const index = Number(e.target.parentNode.getAttribute('id'));
@@ -154,23 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   const initialList = localStorage.getItem('taskList')
     ? JSON.parse(localStorage.getItem('taskList'))
-    : [
-      {
-        description: 'Wash Car',
-        completed: false,
-        index: 0,
-      },
-      {
-        description: 'Service Car',
-        completed: false,
-        index: 1,
-      },
-      {
-        description: 'Finish To do List',
-        completed: true,
-        index: 2,
-      },
-    ];
+    : [];
   initialList.forEach((task) => handleAddTask(task.description, task.completed, false));
 });
 
