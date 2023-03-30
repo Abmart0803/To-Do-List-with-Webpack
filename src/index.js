@@ -1,5 +1,4 @@
 import './style.css';
-// import _ from 'lodash';
 import clearCompleted from './module/clearAll.js';
 
 let addButton = document.getElementById('add');
@@ -23,7 +22,6 @@ let toDoList = [
     completed: true,
     index: 2,
   },
-
 ];
 
 const handleCheckbox = (e) => {
@@ -139,7 +137,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   input.addEventListener('input', (e) => {
     newTodo = e.target.value;
-    // console.log(newTodo);
   });
 
   addButton.addEventListener('click', () => handleAddTask(newTodo));
@@ -157,8 +154,24 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   const initialList = localStorage.getItem('taskList')
     ? JSON.parse(localStorage.getItem('taskList'))
-    : [];
-  initialList.forEach((task) => handleAddTask(task.name, task.completed, false));
+    : [
+      {
+        description: 'Wash Car',
+        completed: false,
+        index: 0,
+      },
+      {
+        description: 'Service Car',
+        completed: false,
+        index: 1,
+      },
+      {
+        description: 'Finish To do List',
+        completed: true,
+        index: 2,
+      },
+    ];
+  initialList.forEach((task) => handleAddTask(task.description, task.completed, false));
 });
 
 module.exports = {
